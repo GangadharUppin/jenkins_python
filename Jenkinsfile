@@ -20,8 +20,7 @@ pipeline {
                 script {
                     // Example: Run a shell script or command
                     bat 'echo "Executing code..."'
-                    //bat "C:\\Users\\ACER\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\pytest.exe -vs test.py" // Replace with the command to execute your code
-					bat "pytest.exe -vs test.py"
+                    bat "C:\\Users\\ACER\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\pytest.exe -vs test.py" // Replace with the command to execute your code
                 }
             }
         }
